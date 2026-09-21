@@ -7,7 +7,7 @@ const { createClient } = require('@supabase/supabase-js');
 
 const app = express();
 app.use(cors());
-app.use(express.json({ limit: '20mb' }));
+app.use(express.json({ limit: '50mb' }));
 
 // ============================================================
 // All API keys live ONLY here in Server 2 via .env
